@@ -130,6 +130,14 @@ tr {
   text-decoration: underline;
 }
 
+
+.fb-comments-comment-actions date {
+  font-size: 0.75em;
+  color: #90949c;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
 .fb-comments-comment-actions likes {
   font-size: 13px;
   background: url(assets/img/like.png);
@@ -145,13 +153,6 @@ tr {
   border-radius: 19px;
 }
 
-.fb-comments-comment-actions date {
-  font-size: 0.75em;
-  color: #90949c;
-  text-decoration: none;
-  cursor: pointer;
-  cursor: hand;
-}
 
 .fb-comments-comment-actions date:hover {
   text-decoration: underline;
