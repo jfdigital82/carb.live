@@ -272,7 +272,7 @@
 						  </tbody>
 					   </table>
 					</div>
-					<button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button>
+					<!-- <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button> -->
 					<div style="display:none" id="more">
 					   <div class="fb-comments-wrapper">
 						  <table class="fb-comments-comment" id="10">
@@ -435,11 +435,15 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			console.log( "ready!" );
+			$(".span-btn").click(function(){
+				window.location.href = "https://pay.kiwify.com.br/5fQ4joB";
+			});
+			setTimeout(() => {
+				$('.noshow').show();
+				console.log("Aqui");
+			}, 60000 * 5); 
 		});
-		setTimeout(() => {
-		$('.noshow').show();
-		console.log("Aqui");
-	   }, 10000); 
+	
 	</script>
 </body>
 
